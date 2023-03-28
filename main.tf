@@ -43,3 +43,5 @@ resource "aws_subnet" "private" {
   }
   availability_zone = data.aws_availability_zones.availabilty_zone.names[count.index]
 }
+
+# this is a test 
